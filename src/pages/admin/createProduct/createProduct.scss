@@ -1,0 +1,41 @@
+.create {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        margin: 0 auto;
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #7e7e7e;
+        margin-bottom: 25px;
+    }
+
+    &__form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    input, button {
+        width: 80%;
+        outline: none;
+        padding: 8px;
+        border: 2px solid gray;
+        color: gray;
+        border-radius: 6px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    button {
+        background-color: gray;
+        color: #fff;
+        transition: .4s;
+        &:hover{
+            color: gray;
+            background: white;
+        }
+    }
+}
